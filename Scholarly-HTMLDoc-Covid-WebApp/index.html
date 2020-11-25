@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>COVID-19 Data Visualization Tool</title>
+    <link rel="stylesheet" href="css/scholarly.min.css">
+    <script src="js/scholarly.min.js"></script>
+  </head>
+  <body prefix="schema: http://schema.org">
+    <header>
+      <div>
+        <img src="scholarly-html.svg" width="227" height="50" alt="Scholarly HTML logo">
+      </div>
+      <h1 style = 'padding-top:1em'>COVID-19 Data Visualization Tool</h1>
+    </header>
+    <div role="contentinfo">
+      <dl>
+        <dt>Authors</dt>
+        <dd>
+          <a href="www.pulamea.ro" role="doc-biblioref" >Georgian Duda</a>,
+          <a href="">Peneoasu Cristi</a>,
+          <a href="">Dumitriu Cezar</a>
+        </dd>
+      </dl>
+    </div>
+    <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+      <h2>Abstract</h2>
+      <p>
+        The goal of this project is to raise awareness on the evolution of COVID. The idea is to associate data and visualization tools such as graphs and tables, which will provide relevant information to the public regarding the present situation of COVID. 
+      </p>
+	  <p>
+	    We want to to reach the general public, not experts familiar with graphs and numbers. For this reason, we will put a lot of effort on simplifying the visualization methods and representing it in such a manner that is accessible to everyone.
+	  </p>
+    </section>
+    <section id="introduction" role="doc-introduction">
+      <h2>Introduction</h2>
+	 <p> In this Scholarly HTML technical report we will try to cover the preliminary considerations about the Web application design and interaction, the provenece of external data resources and the applied technologies and pattern applied in the development process.</p>
+
+<p>We will start with an application overview, by explaning the main functionalities available to the final users.</p>
+
+<p>The next step would be provide basic information about the used technologies and the implied programming languages, as well as some informations about the used data source.</p>
+
+<p>To round up we will provide the developers considerations and the limitations.</p>
+
+    </section>
+    <section id="functions" role="doc-functions">
+      <h2>Product functions</h2>
+      <p>The major functions of the application are the following:</p>
+	  <ul><li>
+Showing historical data regarding the daily confirmed cases, tested cases, recoveries, deceased;</li>
+<li>Displaying regional data regarding the after mentioned data groups;</li>
+<li>Displaying the evolution of cases through the use of graphics;</li>
+<li>Creating a choropleth map with the data (where each state is shaded in proportion to a statistical variable).</li>
+</ul>
+    </section>
+   <section id="methodology">
+	  <h2>Development methodology</h2>
+	  <p>
+		Waterfall methodology is a linear project management approach, where stakeholder and customer requirements
+		are gathered at the beginning of the project, and then a sequential project plan is created to accommodate
+		those requirements.
+	  </p>
+	  <p>
+		The 5 phases used in the develompent process of this project are:
+	  </p>
+		<ol>
+			<li><b>Requirements</b>: The key aspect of waterfall is that all customer requirements are gathered at
+			the beginning of the project, allowing every other phase to be planned without further customer
+			involvement until the product is complete. It is assumed that all requirements can be gathered 
+			at this phase.</li>
+			<li><b>Design</b>: The design phase is best broken up into logical design and physical design subphases.
+			The logical design subphase is when possible solutions are brainstormed and theorized. The physical
+			design subphase is when those theoretical ideas and schemas are made into concrete specifications.</li>
+			<li><b>Implementation</b>: The implementation phase is when programmers assimilate the requirements and
+			specifications from the previous phases and produce actual code.</li>
+			<li><b>Verification</b>:  This phase is when the customer reviews the product to make sure that it meets
+			the requirements laid out at the beginning of the project. This is done by releasing a completed
+			product to the customer.</li>
+			<li><b>Maintenance</b>:  The customer is regularly using the product during the maintenance phase,
+			discovering bugs, inadequate features and other errors that occurred during production. The
+			production team applies these fixes as necessary until the customer is satisfied.</li>
+		</ol>
+      </p>
+    </section>
+    <section id="Technologies">
+      <!-- review? -->
+      <h2>Technical Specifications</h2>
+      <p>
+        The main technologies used for the Covid Data Visualisation Web application are:
+      </p>
+      <ul>
+        <li>
+          ASP.NET Core Razor Pages
+        </li>
+        <li>
+          Bootstrap / Responsive
+        </li>
+        <li>
+          JS / FetchAPI / Select2 / DateRangePicker
+        </li>
+		<li>
+          External API 
+        </li>
+		<li>
+          Data Source: api.covid19api.com
+        </li>
+      </ul>
+      <section id="Razor">
+        <!-- review? -->
+        <h3>What Is Razor Pages?</h3>
+        <p>
+          ASP.NET Core Razor Pages is a server-side, page-focused framework that enables building dynamic, data-driven web sites with clean separation of concerns. Based on the latest version of ASP.NET from Microsoft - ASP.NET Core, Razor Pages supports cross platform development and can be deployed to Windows, Unix and Mac operating systems.</p>
+
+<p>The Razor Pages framework is lightweight and very flexible. It provides the developer with full control over rendered HTML. The framework is built on top of ASP.NET Core MVC. Razor Pages is the recommended framework for cross-platform server-side HTML generation on .NET Core.</p>
+
+<p>Razor Pages makes use of the popular C# programming language for server-side programming, and the easy-to-learn Razor templating syntax for embedding C# in HTML mark-up to generate content for browsers dynamically.
+        </p>
+		<img src="razor-page-diagram-1024x427.png" width="1024" height="427" alt="Razor pages diagram">
+		</section>
+		<section id="Bootstrap">
+		<h3>What Is Bootstrap?</h3>
+        <p>
+          Bootstrap framework, formerly known as Twitter Bootstrap. It was built by Twitter for the mobile-first apps. It’s a complete and easy-to-use system of styles that helps deal with the daily tasks of a web developer. </p>
+		 <p> Compared with other CSS frameworks, the biggest advantage of Bootstrap is the huge selection of additional templates, themes, and boilerplate code. It makes it very easy and fast to create a sophisticated web site without a design agency or without having any professional design skills. </p>
+		 <p> There are also endless additions and extensions available to fill the rare gaps. Moreover, Bootstrap can handle desktop web sites and mobile device pages equally as well, so it’s really a one-stop solution.</p>
+		</section>
+		<section id="Datasource">
+		<h3>Datasource Covid19 API</h3>
+		<h4>api.covid19api.com</h4>
+        <p>
+          Data source could provide the following data per country: total cases, new cases, total deaths, new deaths, total cases per million, new cases per million, total deaths per million, new deaths per million, population, population density, median age, aged 65 and older, aged 70 and older, GDP per capita, covid death rate, diabetes prevalence, hand washing facilities, hospital beds per thousand and life expectancy.</p>
+      </section>
+	  </section>
+	  <section id="Considerations and Limitation">
+		<h3>Considerations and Limitation</h3>
+        <p>Because of the social implications of the analyzed phenomenon, we have to keep in mind a few constraints in the way in which we display the data.</p>
+<p>Because COVID-19 testing and reporting are inconsistent among countries, it’s easy to misinterpret the data. That makes it especially important to create clear and accurate visualizations. Otherwise even simple and minimalistic graphics can be misleading.</p> 
+
+<p>Though this is a world-wide crisis, each state or territory reports its data differently. We track numbers provided by each state, but the quality and frequency of reports vary widely. Transparency is crucial. There is a need to publish details about inconsistencies in data reporting for every state and territory.</p>
+
+<p>Charting the number of positive tests alone is often problematic. Simple case counts show where people are being tested, not necessarily where people are sick.
+For example, a country that reports three cases of COVID-19 after testing 2,000 people is probably in a different stage of its outbreak than a state that reports three cases but has only tested 20 people. But if all you have is a case count, those states look exactly the same. That is why it’s necessary to include the total number of tests as a denominator.</p>
+      </section>  
+  </body>
+</html>
