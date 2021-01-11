@@ -29,7 +29,7 @@ namespace COVID19.Tracker.Pages
         public async Task OnGet()
         {
             this.ViewModel = new DashboardViewModel();
-            ViewModel.Stats = await _service.GetStatsAsync("GLOBE");
+            ViewModel.Stats = await _service.GetStatsAsync("RO");
         }
     }
 }

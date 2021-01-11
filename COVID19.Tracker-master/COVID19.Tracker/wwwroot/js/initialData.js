@@ -28,19 +28,28 @@
     }
 }).on('change', async function () {
     data = $("#stateSelect2").select2("data")[0];
+
+    var c = document.getElementById('myAreaChart');
+    var ctx = c.getContext("2d");
+    ctx.clearRect(0, 0, c.width, c.height);
+
+
     await loadDataByCode(data); fetchChartData(data);
 });
 
 
 
 $(document).ready(async function () {
-    $("#districtsTable").show();
+    $("#districtsTable").hide();
+    var data = { text: "romania" };
+    fetchChartData(data);
     animateNumbers();
     $("#countryButton").click(async function () {
         $('#stateSelect2').empty();
         var data = { id: "GLOBE", text: "Global" }
         await loadDataByCode(data);
     });
+    
 });
 
 function animateNumbers() {
