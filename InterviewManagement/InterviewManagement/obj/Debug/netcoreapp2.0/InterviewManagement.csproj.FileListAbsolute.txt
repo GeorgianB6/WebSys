@@ -1,6 +1,0 @@
-C:\DotNetProjects\InterviewManagement\InterviewManagement\bin\Debug\netcoreapp2.0\InterviewManagement.deps.json
-C:\DotNetProjects\InterviewManagement\InterviewManagement\bin\Debug\netcoreapp2.0\InterviewManagement.dll
-C:\DotNetProjects\InterviewManagement\InterviewManagement\obj\Debug\netcoreapp2.0\InterviewManagement.csprojResolveAssemblyReference.cache
-C:\DotNetProjects\InterviewManagement\InterviewManagement\obj\Debug\netcoreapp2.0\InterviewManagement.csproj.CoreCompileInputs.cache
-C:\DotNetProjects\InterviewManagement\InterviewManagement\obj\Debug\netcoreapp2.0\InterviewManagement.AssemblyInfoInputs.cache
-C:\DotNetProjects\InterviewManagement\InterviewManagement\obj\Debug\netcoreapp2.0\InterviewManagement.AssemblyInfo.cs
