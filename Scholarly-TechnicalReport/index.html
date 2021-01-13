@@ -18,7 +18,7 @@
       <dl>
         <dt>Authors</dt>
         <dd>
-          <a href="www.pulamea.ro" role="doc-biblioref" >Georgian Duda</a>,
+          <a href="">Georgian Duda</a>,
           <a href="">Peneoasu Cristi</a>,
           <a href="">Dumitriu Cezar</a>
         </dd>
@@ -132,6 +132,19 @@ Showing historical data regarding the daily confirmed cases, tested cases, recov
           Data source could provide the following data per country: total cases, new cases, total deaths, new deaths, total cases per million, new cases per million, total deaths per million, new deaths per million, population, population density, median age, aged 65 and older, aged 70 and older, GDP per capita, covid death rate, diabetes prevalence, hand washing facilities, hospital beds per thousand and life expectancy.</p>
       </section>
 	  </section>
+	  <section typeof="sa:Project Structure" id="projectstructure" role="doc-projectstructure">
+      <h2>Project Structure</h2>
+      <p>
+       In this section of the document we would like to include some aspects regarding the implementation of the application, how we used  the technologies presented earlier and how we structured the project.
+	  <p>First let's start with the structure of the project which presents itself as below.</p>
+	  <img src="class-diagram.png"  alt="class diagram">
+	  <p>Our intentions about the structure of the project were to simplify the serialization of data from the API, hence most of the attributes in classes are similar to the properties present in the API.</p>
+	  <p>As it can be observed we have two services which consume the external API, one of them returns the list of states (this is needed in order to enable the search functionality) from the data source and the other returns all of the stats per state and also globally.
+      </p>
+	  <p>In the front-end part of the application we have an interface built in HTML, CSS using the Bootstrap library and JavaScript, the interface gets the data from the API through async AJAX requests. Also, in order to get the chart functionality we implemented the GetMonthly() service in order to 
+		process the data from the API on a monthly basis so we can represent it in a chart form.</p>
+		
+    </section>
 	  <section id="Considerations and Limitation">
 		<h3>Considerations and Limitation</h3>
         <p>Because of the social implications of the analyzed phenomenon, we have to keep in mind a few constraints in the way in which we display the data.</p>
