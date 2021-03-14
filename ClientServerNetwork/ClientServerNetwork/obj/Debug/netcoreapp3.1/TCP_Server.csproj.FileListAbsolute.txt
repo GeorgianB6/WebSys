@@ -1,0 +1,12 @@
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\bin\Debug\netcoreapp3.1\TCP_Server.exe
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\bin\Debug\netcoreapp3.1\TCP_Server.deps.json
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\bin\Debug\netcoreapp3.1\TCP_Server.runtimeconfig.json
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\bin\Debug\netcoreapp3.1\TCP_Server.runtimeconfig.dev.json
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\bin\Debug\netcoreapp3.1\TCP_Server.dll
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\bin\Debug\netcoreapp3.1\TCP_Server.pdb
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\obj\Debug\netcoreapp3.1\TCP_Server.AssemblyInfoInputs.cache
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\obj\Debug\netcoreapp3.1\TCP_Server.AssemblyInfo.cs
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\obj\Debug\netcoreapp3.1\TCP_Server.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\obj\Debug\netcoreapp3.1\TCP_Server.dll
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\obj\Debug\netcoreapp3.1\TCP_Server.pdb
+C:\DotNetProjects\ClientServerNetwork\ClientServerNetwork\obj\Debug\netcoreapp3.1\TCP_Server.genruntimeconfig.cache

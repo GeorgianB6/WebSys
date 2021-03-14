@@ -1,0 +1,12 @@
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\bin\Debug\netcoreapp3.1\TCP_Server_V2.exe
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\bin\Debug\netcoreapp3.1\TCP_Server_V2.deps.json
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\bin\Debug\netcoreapp3.1\TCP_Server_V2.runtimeconfig.json
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\bin\Debug\netcoreapp3.1\TCP_Server_V2.runtimeconfig.dev.json
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\bin\Debug\netcoreapp3.1\TCP_Server_V2.dll
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\bin\Debug\netcoreapp3.1\TCP_Server_V2.pdb
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\obj\Debug\netcoreapp3.1\TCP_Server_V2.AssemblyInfoInputs.cache
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\obj\Debug\netcoreapp3.1\TCP_Server_V2.AssemblyInfo.cs
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\obj\Debug\netcoreapp3.1\TCP_Server_V2.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\obj\Debug\netcoreapp3.1\TCP_Server_V2.dll
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\obj\Debug\netcoreapp3.1\TCP_Server_V2.pdb
+C:\DotNetProjects\ClientServerNetwork\TCP_Server_V2\obj\Debug\netcoreapp3.1\TCP_Server_V2.genruntimeconfig.cache

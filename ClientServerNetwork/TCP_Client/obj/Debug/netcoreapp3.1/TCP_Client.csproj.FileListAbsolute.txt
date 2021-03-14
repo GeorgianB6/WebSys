@@ -1,0 +1,12 @@
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.exe
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.deps.json
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.runtimeconfig.json
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.runtimeconfig.dev.json
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.dll
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.pdb
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.AssemblyInfoInputs.cache
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.AssemblyInfo.cs
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.dll
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.pdb
+C:\DotNetProjects\ClientServerNetwork\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.genruntimeconfig.cache
